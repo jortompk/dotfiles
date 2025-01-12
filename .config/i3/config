@@ -8,7 +8,19 @@ font pango : terminus 14
 
 #default_border pixel 5
 #hide_edge_borders smart
-gaps inner 5
+#gaps inner 5
+
+# Gaps
+set $inner 10
+set $outer 0
+gaps outer $outer
+gaps inner $inner
+smart_gaps on
+
+# Borders
+new_window pixel 2
+new_float pixel 1
+hide_edge_borders both
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -186,7 +198,7 @@ bindsym XF86AudioMute exec "amixer -q sset Master,0 toggle"
 bar {
         colors {
           background #000000
-          statusline #00ffff
+          statusline #2092c7
           separator #666666
 
           focused_workspace  #00ffff #660066 #00ffff
@@ -195,7 +207,7 @@ bar {
           urgent_workspace   #2f343a #900000 #ffffff
           binding_mode       #2f343a #900000 #ffffff
         }
-        font pango:Terminus 14 
+        font pango:Terminus 14 2092c7
 	status_command i3status -c /home/jor/.config/i3/i3status.conf
         mode dock
         position top
