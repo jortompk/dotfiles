@@ -5,7 +5,9 @@ URxvt.scrollBar: false
 URxvt.foreground: #8c8c8c 
 URxvt.transparent: true
 URxvt.shading: 15
-URxvt.geometry: 106x36
+URxvt.geometry: 400x400
+URxvt.font: xft:terminus Mono:style=regular 10
+URxvt.letterSpace: -5
 
 
 !Black
@@ -25,10 +27,10 @@ URxvt*color4:        #6f88ad
 URxvt*color12:       #87abd4
 !Magenta
 URxvt*color5:        #a06fad
-URxvt*color13:       #c887d4
+URxvt*color13:       #c887di4
 !Cyan
 URxvt*color6:        #6ca9a1
 URxvt*color14:       #84d0c5
 !White
 URxvt*color7:        #ababab
-URxvt*color15:       #cdcecf
+URxvt*color15:       #cdcec

@@ -56,6 +56,6 @@ fi
 xscreensaver &
 xsetroot -cursor_name left_ptr &
 xset -b &
-#sh ~/.fehbg &
+sh ~/.fehbg &
 #nm-applet &
 exec i3

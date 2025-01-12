@@ -15,8 +15,8 @@ colorscheme custom  "Changes color scheme
 "colorscheme miromiro 
 syntax on
 set guifont=Terminus
-map <C-g> :NERDTreeToggle<CR>
-nmap <C-v> :TagbarToggle<CR>
+#map <C-g> :NERDTreeToggle<CR>
+#nmap <C-v> :TagbarToggle<CR>
 
 map <F5> :!g++ % && ./a.out <CR>
 
@@ -30,12 +30,12 @@ call vundle#begin()
 " call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
+#Plugin 'VundleVim/Vundle.vim'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'scrooloose/nerdtree'
+#Plugin 'Valloric/YouCompleteMe'
+#Plugin 'scrooloose/nerdtree'
 
 " All of your Plugins must be added before the following line
 call vundle#end()   "required
